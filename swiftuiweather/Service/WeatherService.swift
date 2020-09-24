@@ -25,7 +25,11 @@ class WeatherService {
                 return completion(.failure(.noData))
             }
             
-            //let weatherREsponse = try? JSON
+            if let weatherResponse = try? JSONDecoder().decode(WeatherResponse.self, from: data) {
+                completion(.success(weatherResponse.weather))
+            } else {
+                completion(.failure(.decodingError))
+            }
         }
     }
 }

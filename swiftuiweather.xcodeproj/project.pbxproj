@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D5FB3B6251CFAE200AB4899 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5FB3B5251CFAE200AB4899 /* WeatherViewModel.swift */; };
 		1DD8844B251CF5A500B64D42 /* swiftuiweatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD8844A251CF5A500B64D42 /* swiftuiweatherApp.swift */; };
 		1DD8844D251CF5A500B64D42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD8844C251CF5A500B64D42 /* ContentView.swift */; };
 		1DD8844F251CF5AB00B64D42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DD8844E251CF5AB00B64D42 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D5FB3B5251CFAE200AB4899 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
 		1DD88447251CF5A500B64D42 /* swiftuiweather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftuiweather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DD8844A251CF5A500B64D42 /* swiftuiweatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftuiweatherApp.swift; sourceTree = "<group>"; };
 		1DD8844C251CF5A500B64D42 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -78,6 +80,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D5FB3B4251CFAD000AB4899 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				1D5FB3B5251CFAE200AB4899 /* WeatherViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
 		1DD8843E251CF5A500B64D42 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +111,7 @@
 		1DD88449251CF5A500B64D42 /* swiftuiweather */ = {
 			isa = PBXGroup;
 			children = (
+				1D5FB3B4251CFAD000AB4899 /* View Models */,
 				1DD88493251CF7AB00B64D42 /* Extensions */,
 				1DD8848C251CF77D00B64D42 /* Service */,
 				1DD8847B251CF65900B64D42 /* Models */,
@@ -293,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DD8844D251CF5A500B64D42 /* ContentView.swift in Sources */,
+				1D5FB3B6251CFAE200AB4899 /* WeatherViewModel.swift in Sources */,
 				1DD88483251CF6A200B64D42 /* WeatherResponse.swift in Sources */,
 				1DD88495251CF7BB00B64D42 /* URL+Extensions.swift in Sources */,
 				1DD88488251CF77600B64D42 /* WeatherService.swift in Sources */,
